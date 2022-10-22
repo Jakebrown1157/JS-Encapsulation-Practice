@@ -57,7 +57,7 @@ async function main() {
 
     app.listen(3001, () => {
         liveServer.start({
-            port: 3000,
+            port: 3008,
             logLevel: 0,
             root: './public'
         })
